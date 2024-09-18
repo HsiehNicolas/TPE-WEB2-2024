@@ -1,5 +1,7 @@
 Gonzalo Martinez (gonzalomartinez2934@gmail.com) 42630924
 Hsieh Nicolas Federico(hsiehnicolas@gmail.com) 44839099
+
+
 Esta base de datos está diseñada para organizar y gestionar información relacionada con juegos y las compañías que los desarrollan o publican. Está compuesta por dos tablas principales:
 
 Tabla de Games: Esta tabla almacena los detalles de los juegos disponibles en la biblioteca, incluyendo el título, género, fecha de lanzamiento, plataforma, y clasificación. Cada juego está vinculado a una compañía que lo ha desarrollado o distribuido.
