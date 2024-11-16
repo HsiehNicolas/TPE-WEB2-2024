@@ -3,9 +3,9 @@
 namespace view;
 
 use helpers\Helper;
-use Smarty;
+use Smarty\Smarty;
 
-include_once "libs/smarty/smarty/libs/Smarty.class.php";
+include_once "smarty-master/libs/Smarty.class.php";
 
 class gamesView
 {
