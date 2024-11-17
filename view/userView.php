@@ -16,6 +16,13 @@ class userView
         $this->smarty->assign('props', Helper::getAppProps());
     }
 
+    function showHome() {
+        if(Helper::isLogged())
+            $this->smarty->display('./templates/adminPanel.tpl');
+        else
+            $this->smarty->display('./templates/home.tpl');
+    }
+
     function showGamePanel(){
         $this->smarty->display('./templates/gamePanel.tpl');
     }

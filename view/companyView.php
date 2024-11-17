@@ -20,7 +20,10 @@ class companyView
     function showHome ($games,$compa) {
         $this->smarty->assign('games',$games);
         $this->smarty->assign('compa', $compa);
-        $this->smarty->display('./templates/home.tpl');
+        if(Helper::isLogged())
+            $this->smarty->display('./templates/adminPanel.tpl');
+        else
+            $this->smarty->display('./templates/home.tpl');
     }
 
     function showAdminPanel($games,$compa){ // ??????????????????????????????
